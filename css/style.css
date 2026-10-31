@@ -10095,3 +10095,26 @@ transform: translateY(-10px);
 background-color: #ffffff !important;
 color: #0d6efd !important;
 }
+
+/* MEMAKSA SEMUA BANNER BERUKURAN 1:1 */
+.cta,
+.cta-1,
+.cta-2,
+.cta-3 {
+    box-sizing: border-box;
+}
+
+.cta {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 1 / 1 !important;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
