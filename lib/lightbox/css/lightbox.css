@@ -205,3 +205,16 @@ html.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+.cta {
+    text-align: center;
+}
+
+.cta h1 {
+    text-align: center;
+}
+
+.cta .hero-btn {
+    display: inline-block;
+    text-align: center;
+}
