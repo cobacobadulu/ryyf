@@ -9992,8 +9992,10 @@ h6,
     text-align: center;
 }
 
-/* Animasi tombol DAFTAR */
-.cta .hero-btn {
+/* ANIMASI TOMBOL DAFTAR */
+.cta-1 .hero-btn,
+.cta-2 .hero-btn,
+.cta-3 .hero-btn {
     display: inline-block;
     animation: daftarGerak 1s ease-in-out infinite;
 }
@@ -10002,14 +10004,15 @@ h6,
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-10px);
     }
+
     100% {
         transform: translateY(0);
     }
 }
-
 /* GAMBAR 1 */
 .cta-1 {
     background-image: linear-gradient(
