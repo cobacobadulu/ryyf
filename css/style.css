@@ -9980,3 +9980,16 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+  .cta {
+    text-align: center;
+}
+
+.cta h1 {
+    text-align: center;
+}
+
+.cta .hero-btn {
+    display: inline-block;
+    text-align: center;
+}
