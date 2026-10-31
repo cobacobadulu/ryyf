@@ -10010,19 +10010,39 @@ h6,
     }
 }
 
-.cta {
-    width: 100%;
-    min-height: 550px;
-
+/* GAMBAR 1 */
+.cta-1 {
     background-image: linear-gradient(
         rgba(4, 9, 30, 0.55),
         rgba(4, 9, 30, 0.55)
     ), url('../img/portfolio-1.jpg');
+}
 
+/* GAMBAR 2 */
+.cta-2 {
+    background-image: linear-gradient(
+        rgba(4, 9, 30, 0.55),
+        rgba(4, 9, 30, 0.55)
+    ), url('../img/portfolio-2.jpg');
+}
+
+/* GAMBAR 3 */
+.cta-3 {
+    background-image: linear-gradient(
+        rgba(4, 9, 30, 0.55),
+        rgba(4, 9, 30, 0.55)
+    ), url('../img/portfolio-3.jpg');
+}
+
+/* DESAIN UTAMA */
+.cta-1,
+.cta-2,
+.cta-3 {
+    width: 100%;
+    min-height: 550px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     border-radius: 25px;
 
     display: flex;
