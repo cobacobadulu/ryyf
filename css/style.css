@@ -34,6 +34,8 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Roboto", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
 *,
 *::before,
 *::after {
@@ -9981,7 +9983,8 @@ h6,
   list-style-type: none;
 }
 
-  .cta {
+/* Membuat konten CTA berada di tengah */
+.cta {
     text-align: center;
 }
 
@@ -9989,12 +9992,8 @@ h6,
     text-align: center;
 }
 
+/* Animasi tombol DAFTAR */
 .cta .hero-btn {
-    display: inline-block;
-    text-align: center;
-}
-
-.hero-btn {
     display: inline-block;
     animation: daftarGerak 1s ease-in-out infinite;
 }
