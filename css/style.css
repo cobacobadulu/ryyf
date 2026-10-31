@@ -9992,41 +9992,6 @@ h6,
     text-align: center;
 }
 
-/* TOMBOL DAFTAR */
-.cta-1 .hero-btn,
-.cta-2 .hero-btn,
-.cta-3 .hero-btn {
-display: inline-block;
-padding: 12px 35px;
-background: #0d6efd;
-color: #ffffff !important;
-font-size: 20px;
-font-weight: bold;
-text-decoration: none;
-border: 2px solid #ffffff;
-border-radius: 10px;
-box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-animation: daftarGerak 1s ease-in-out infinite;
-}
-
-/* ANIMASI */
-@keyframes daftarGerak {
-0%, 100% {
-transform: translateY(0);
-}
-50% {
-transform: translateY(-10px);
-}
-}
-
-/* EFEK SAAT DISENTUH */
-.cta-1 .hero-btn:hover,
-.cta-2 .hero-btn:hover,
-.cta-3 .hero-btn:hover {
-background: #ffffff;
-color: #0d6efd !important;
-}
-
 /* GAMBAR 1 */
 .cta-1 {
     background-image: linear-gradient(
@@ -10077,4 +10042,38 @@ color: #0d6efd !important;
     color: #0d6efd;
     font-size: 22px;
     text-decoration: none;
+}
+
+/* KOTAK TOMBOL DAFTAR */
+.cta-1 a.hero-btn,
+.cta-2 a.hero-btn,
+.cta-3 a.hero-btn {
+display: inline-block !important;
+padding: 12px 35px !important;
+background-color: #0d6efd !important;
+color: #ffffff !important;
+font-size: 20px !important;
+font-weight: bold !important;
+text-decoration: none !important;
+border: 2px solid #ffffff !important;
+border-radius: 10px !important;
+box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+animation: daftarGerak 1s ease-in-out infinite;
+}
+
+@keyframes daftarGerak {
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-10px);
+}
+}
+
+/* EFEK SENTUH */
+.cta-1 a.hero-btn:hover,
+.cta-2 a.hero-btn:hover,
+.cta-3 a.hero-btn:hover {
+background-color: #ffffff !important;
+color: #0d6efd !important;
 }
