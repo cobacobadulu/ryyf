@@ -9992,26 +9992,39 @@ h6,
     text-align: center;
 }
 
-/* ANIMASI TOMBOL DAFTAR */
+/* TOMBOL DAFTAR */
 .cta-1 .hero-btn,
 .cta-2 .hero-btn,
 .cta-3 .hero-btn {
-    display: inline-block;
-    animation: daftarGerak 1s ease-in-out infinite;
+display: inline-block;
+padding: 12px 35px;
+background: #0d6efd;
+color: #ffffff !important;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+border: 2px solid #ffffff;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+animation: daftarGerak 1s ease-in-out infinite;
 }
 
+/* ANIMASI */
 @keyframes daftarGerak {
-    0% {
-        transform: translateY(0);
-    }
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-10px);
+}
+}
 
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
+/* EFEK SAAT DISENTUH */
+.cta-1 .hero-btn:hover,
+.cta-2 .hero-btn:hover,
+.cta-3 .hero-btn:hover {
+background: #ffffff;
+color: #0d6efd !important;
 }
 
 /* GAMBAR 1 */
