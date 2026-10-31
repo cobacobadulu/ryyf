@@ -9992,6 +9992,24 @@ h6,
     text-align: center;
 }
 
+/* PENGATURAN UKURAN SEMUA GAMBAR */
+.cta {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    min-height: unset;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /* GAMBAR 1 */
 .cta-1 {
     background-image: linear-gradient(
