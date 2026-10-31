@@ -10101,12 +10101,31 @@ color: #0d6efd !important;
     justify-content: center;
 }
 
-/* Testimonials */
+/* Testimonials Section */
 
 .testimonials {
     width: 80%;
     margin: auto;
-    padding: 40px 0;
+    padding: 50px 0;
+}
+
+.testimonials h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-desc {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.testimonial-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .testimonial-col {
@@ -10115,19 +10134,18 @@ color: #0d6efd !important;
     background: #eaf3ff;
     border-radius: 15px;
     padding: 25px;
-    margin-bottom: 25px;
-    gap: 20px;
+    gap: 15px;
     transition: 0.3s;
 }
 
 .testimonial-col:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .testimonial-col img {
-    width: 55px;
-    height: 55px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
@@ -10139,32 +10157,28 @@ color: #0d6efd !important;
 
 .testimonial-col p {
     color: #666;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.7;
     margin: 0;
 }
 
 .testimonial-col h3 {
     color: #111;
-    font-size: 19px;
-    font-weight: 600;
-    margin-top: 18px;
-    margin-bottom: 10px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
-
-/* Star Rating */
 
 .stars {
     display: flex;
     gap: 5px;
     color: #ffc107;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .stars i {
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    text-shadow: 0 1px 2px rgba(0,0,0,0.12);
 }
-
 
 /* Responsive */
 
@@ -10172,13 +10186,20 @@ color: #0d6efd !important;
 
     .testimonials {
         width: 90%;
-        padding: 25px 0;
+        padding: 35px 0;
+    }
+
+    .testimonials h1 {
+        font-size: 25px;
+    }
+
+    .testimonial-container {
+        grid-template-columns: 1fr;
     }
 
     .testimonial-col {
         padding: 18px;
         gap: 12px;
-        border-radius: 12px;
     }
 
     .testimonial-col img {
@@ -10188,17 +10209,13 @@ color: #0d6efd !important;
 
     .testimonial-col p {
         font-size: 12px;
-        line-height: 1.6;
     }
 
     .testimonial-col h3 {
-        font-size: 16px;
-        margin-top: 12px;
+        font-size: 15px;
     }
 
     .stars {
-        font-size: 15px;
-        gap: 4px;
+        font-size: 14px;
     }
-
 }
